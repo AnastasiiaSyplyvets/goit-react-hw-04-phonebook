@@ -1,5 +1,5 @@
 // import React, { Component } from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import css from './ContactForm.module.css';
 
 const Form = ({ onSubmit }) => {
