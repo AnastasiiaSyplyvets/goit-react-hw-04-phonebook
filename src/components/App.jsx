@@ -46,6 +46,17 @@ export const App = () => {
         id: nanoid(),
       };
       setContacts(prevState => [...prevState, newContact]);
+
+      toast.success('Contact added!', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'colored',
+      });
     }
   };
 
